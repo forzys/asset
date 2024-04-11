@@ -1,1 +1,25 @@
-{}
+{
+  type:'font',
+  data:[
+    {
+      name: 'MoonRocks',
+      type: 'ttf',
+      uri:'https://raw.githubusercontent.com/forzys/asset/main/fonts/MoonRocks.ttf'
+    },
+    {
+      name: 'NewYork',
+      type: 'otf',
+      uri:'https://raw.githubusercontent.com/forzys/asset/main/fonts/NewYork.otf'
+    },
+   {
+      name: '明达明达无锋体',
+      type: 'ttf',
+      uri:'https://raw.githubusercontent.com/forzys/asset/main/fonts/%E6%98%8E%E8%BE%BE%E6%98%8E%E8%BE%BE%E6%97%A0%E9%94%8B%E4%BD%93.ttf'
+    },
+   {
+      name: '谦度手写楷体',
+      type: 'ttf',
+      uri:'https://raw.githubusercontent.com/forzys/asset/main/fonts/%E8%B0%A6%E5%BA%A6%E6%89%8B%E5%86%99%E6%A5%B7%E4%BD%93.ttf'
+    },
+  ]
+}
