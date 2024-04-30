@@ -1,0 +1,10 @@
+{
+  "type":"tflite",
+ "data":[
+    {
+      "name":"keras-ocr",
+      "type": "tflite",
+      "uri":"https://raw.githubusercontent.com/forzys/asset/main/tflite/keras-ocr.tflite"
+    },
+  ]
+}
