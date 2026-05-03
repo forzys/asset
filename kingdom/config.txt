@@ -1,0 +1,177 @@
+{
+    "menus": [
+        {
+            "title": "图鉴",
+            "column": 2,
+            "icon": "cuIcon cuIcon-read",
+            "key": "handbook",
+            "content": [
+                {
+                    "png": "/images/horse.svg",
+                    "title": "生物",
+                    "key": "creature"
+                },
+                {
+                    "png": "/images/monster.svg",
+                    "title": "怪物",
+                    "key": "monster"
+                },
+                {
+                    "png": "/images/apple.svg",
+                    "title": "材料",
+                    "key": "material"
+                },
+                {
+                    "png": "/images/sword.svg",
+                    "title": "武器",
+                    "key": "sword"
+                },
+                {
+                    "png": "/images/equipment.svg",
+                    "title": "防具",
+                    "key": "equipment"
+                },
+                {
+                    "png": "/images/liver.svg",
+                    "title": "掉落物",
+                    "key": "loot"
+                },
+                {
+                    "png": "/images/gemstone.svg",
+                    "title": "重要物",
+                    "key": "important"
+                },
+                {
+                    "png": "/images/zuonawu.png",
+                    "title": "左纳乌",
+                    "key": "zuonawu"
+                },
+                {
+                    "png": "/images/cooked.svg", 
+                    "title": "料理",
+                    "key": "cooked"
+                },
+                { 
+                    "png":  "/images/suit.svg", 
+                    "title": "套装", 
+                    "key": "suit" 
+                }
+            ]
+        },
+        {
+            "title": "地图",
+            "column": 1,
+            "icon": "cuIcon cuIcon-location",
+            "key": "maps",
+            "content": [
+                {
+                    "png": "/images/weather.svg",
+                    "title": "天空",
+                    "badge":1,
+                    "key": "weather"
+                },
+                {
+                    "png": "/images/ground.svg",
+                    "title": "地面",
+                    "key": "ground"
+                },
+                {
+                    "png": "/images/underground.svg",
+                    "title": "洞穴",
+                    "key": "underground"
+                },
+                {
+                    "png": "/images/monster.svg",
+                    "title": "怪物分布",
+                    "key": "monster"
+                },
+                {
+                    "png": "https://img3.doubanio.com/view/richtext/raw/public/p473699457.jpg",
+                    "type": "guide",
+                    "title": "呀哈哈分布",
+                    "key": "yahaha"
+                }
+            ]
+        },
+        {
+            "title": "攻略",
+            "column": 1,
+            "permission": 1,
+            "icon": "cuIcon cuIcon-form",
+            "key": "guide",
+            "content": [
+                {
+                    "png": "/images/thread.svg",
+                    "title": "主线剧情",
+                    "key": "thread"
+                },
+                {
+                    "icon": "cuIcon-upstage",
+                    "title": "新技能",
+                    "key": "skill"
+                },
+                {
+                    "icon":"cuIcon-brand",
+                    "title": "情节挑战",
+                    "key": "story"
+                },
+                { 
+                    "icon": "cuIcon-game", 
+                    "title": "迷你挑战", 
+                    "key": "mini" 
+                },
+                {
+                    "icon": "cuIcon-cascades",
+                    "title": "其他更多",
+                    "key": "more"
+                },
+                {
+                    "icon": "cuIcon-same",
+                    "title": "求助资源",
+                    "key": "source"
+                }
+            ]
+        },
+        {
+            "title": "探索",
+            "column": 1,
+            "icon": "cuIcon cuIcon-creative",
+            "key": "creative",
+            "content": [
+                {
+                    "icon": "cuIcon-pic",
+                    "title": "壁纸周刊", 
+                    "key": "wallpaper",
+                    "badge":1
+                },
+                {
+                    "icon": "cuIcon-explore",
+                    "title": "网络热图",
+                    "key": "network",
+                    "permission": true,
+                    "badge":1
+                }, 
+                {
+                    "icon": "cuIcon-pic",
+                    "title": "图片服务",
+                    "key": "picture"
+                }, 
+                {
+                    "icon": "cuIcon-ticket",
+                    "title": "优惠券",  
+                    "key": "coupon",
+                    "permission": true
+                }
+            ]
+        }
+    ],
+    "proxy": "https://image.baidu.com/search/down?thumburl=https://baidu.com&url=",
+    "updated": 20,
+    "expires":{
+        "handbook.txt":7,
+        "guide.txt": 11,
+        "maps.txt": 4,
+        "creative.txt":26
+    },
+    "bulletin": []
+}
