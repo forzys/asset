@@ -1,0 +1,171 @@
+{
+    "version": "1.0.1",
+    "updated": "1736847410786",
+    "expires": {
+        "guide": "1736847410787",
+        "cookbook": "1750004962135",
+        "maps": "1736847410785"
+    },
+    "sometip": "🔔说明：\n上线了新版王国之泪全攻略，可以通过底部更多小程序跳转。目前有两个王国之泪,之后的侧重方向会不同哦。",
+    "menus": [
+        {
+            "title": "图鉴",
+            "key": "handbook",
+            "column": 2,
+            "content": [
+                {
+                    "name": "武器",
+                    "key": "shuangshoujian",
+                    "img": "https://cdn.nlark.com/yuque/0/2024/png/1362796/1726571832472-7c82f525-3d19-493d-ba64-82b311cdbfd1.png",
+                    "position": "0px 0px"
+                },
+                {
+                    "name": "弓箭",
+                    "key": "gongjian",
+                    "img": "https://cdn.nlark.com/yuque/0/2024/png/1362796/1726572157392-bd05d889-311e-4b2c-a1e2-28e041383f7b.png",
+                    "position": "0px 0px"
+                },
+                {
+                    "name": "盾牌",
+                    "key": "dunpai",
+                    "img": "https://cdn.nlark.com/yuque/0/2024/png/1362796/1726572107607-edb2f418-94fb-4bf0-9ce7-e7ea5ac1e9e9.png",
+                    "position": "0px 0px"
+                },
+                {
+                    "name": "服饰",
+                    "key": "shenti",
+                    "img": "https://cdn.nlark.com/yuque/0/2024/png/1362796/1726572195212-6c2332c2-46c9-4df3-a80a-4640366a0839.png",
+                    "position": "0px 0px"
+                },
+                {
+                    "name": "料理",
+                    "page": "cookbook",
+                    "key": "炒炖烤煎",
+                    "size": "570.3",
+                    "img": "https://cdn.nlark.com/yuque/0/2024/png/1362796/1728913434347-328d2cbf-2306-4b1d-a478-97a59b65af90.png",
+                    "position": "0px 0px"
+                }
+            ]
+        },
+        {
+            "title": "攻略",
+            "key": "guide",
+            "column": 1,
+            "page": "guid",
+            "content": [
+                {
+                    "name": "主剧情挑战",
+                    "pic": "juqing",
+                    "key": "主剧情挑战"
+                },
+                {
+                    "name": "神庙挑战",
+                    "pic": "shenmiao",
+                    "key": "神庙挑战"
+                },
+                {
+                    "name": "迷你挑战",
+                    "pic": "mini",
+                    "key": "迷你挑战"
+                },
+                {
+                    "name": "其他",
+                    "pic": "huiyi",
+                    "key": "其他"
+                }
+            ]
+        },
+        {
+            "title": "地图",
+            "column": 1,
+            "page": "guid",
+            "key": "maps",
+            "content": [
+                {
+                    "name": "地点分布图",
+                    "icon": "cuIcon-weunblock text-sm",
+                    "page": "maps",
+                    "key": "location"
+                },
+                {
+                    "name": "呀哈哈",
+                    "pic": "yahaha",
+                    "key": "呀哈哈"
+                },
+                {
+                    "name": "神庙",
+                    "pic": "maps",
+                    "key": "神庙"
+                }
+            ]
+        }
+    ],
+    "guide": {
+        "menus": [
+            "主剧情挑战",
+            "迷你挑战",
+            "神庙挑战",
+            "其他"
+        ],
+        "test": "https://raw.gitcode.com/gitcode2eon/zelda/raw/master/wild/guide.zelda",
+        "origin": "https://raw.gitcode.com/gitcode2eon/zelda/raw/master/wild/guide.zelda"
+    },
+    "maps": {
+        "origin": "https://gitee.com/gitee2eon/zelda/raw/master/maps.zelda"
+    },
+    "handbook": {
+        "origin": "https://raw.gitcode.com/gitcode2eon/zelda/raw/master/wild/handbook.zelda"
+    },
+    "cookbook": {
+        "imgs": [
+            "https://cdn.nlark.com/yuque/0/2024/png/1362796/1728913434347-328d2cbf-2306-4b1d-a478-97a59b65af90.png",
+            "https://cdn.nlark.com/yuque/0/2024/png/1362796/1728913436606-d81750a3-ac02-4246-852c-e268ce48a4fb.png"
+        ],
+        "menus": [
+            "炒炖烤煎",
+            "米饭",
+            "蛋",
+            "干煎",
+            "汤/炖菜",
+            "甜点",
+            "怪物料理",
+            "药剂",
+            "其他"
+        ],
+        "attrs": {
+            "w": "60",
+            "h": "60",
+            "amount": "64"
+        },
+        "origin": "https://gitee.com/gitee2eon/zelda/raw/master/cookbook.zelda"
+    },
+    "wallpaper": {
+        "origin": "https://gitee.com/gitee2eon/zelda/raw/master/wallpaper.zelda"
+    },
+    "banner":{
+        "img":"https://image.baidu.com/search/down?thumburl=https://baidu.com&url=https://tvax2.sinaimg.cn/large/0084Zq0jgy1hxli9q29q7j30hy0dhtas.jpg",
+        "mini": "wx07a956ab1e1d6076"
+    },
+    "mini": [
+        {
+            "name": "王国之泪全攻略",
+            "appid": "wx07a956ab1e1d6076",
+            "img": "https://wx.qlogo.cn/mmhead/DYAIOgq83eqticb5JSgJr1sibl3icXyXiar921ibW57VnmnYDBibmgwiaO08UTAzHdWDotxUgeTF51ibvh8/0"
+        },
+        {
+            "name": "王泪助手",
+            "appid": "wx5a64f8e056e5084a",
+            "img": "https://wx.qlogo.cn/mmhead/bj9JGugn6Ud10QE0Z0icr9cZ4wWibjGmBDbDibwriaqBPHdu2pdIlbHoWa98ZFzxXzaR2d1RaEeWicZE/0"
+        },
+        {
+            "name": "饥荒全百科",
+            "appid": "wx588753d4538a131b",
+            "img": "https://wx.qlogo.cn/mmhead/eTBFF2uBxbDtbZEhJ2LppqtPKpKgrJ6Efn2C38ibHsftchB0ToYzaeePZep6g49LVgLibQFNZeOsw/0"
+        },
+        {
+            "name": "印象足迹图",
+            "appid": "wxa4368e1ac33c6cb6",
+            "img": "https://wx.qlogo.cn/mmhead/dWYcndbpDnY0ggOnnYJOsGwwjsF2T60ZtfbiaILlUhFMD1lKg7MUV0IxbyRKfiarUsXRQibdeHd9FU/0"
+        }
+    ]
+}
