@@ -1,0 +1,112 @@
+{
+    "menus": [
+        {
+            "title": "图鉴",
+            "column": 2,
+            "icon": "cuIcon cuIcon-read",
+            "key": "handbook",
+            "content": [
+                {
+                    "png": "/images/cooked.png",
+                    "title": "食谱",
+                    "key": "cooked"
+                },
+                {
+                    "png": "/images/apple.png",
+                    "title": "食材",
+                    "key": "material"
+                },
+                {
+                    "png": "/images/yao.png",
+                    "title": "药材",
+                    "key": "yao"
+                },
+                {
+                    "png": "/images/sword.png",
+                    "title": "武器",
+                    "key": "sword"
+                },
+                {
+                    "png": "/images/equipment.png",
+                    "title": "防具",
+                    "key": "equipment"
+                },
+                {
+                    "png": "/images/suit.png",
+                    "title": "套装",
+                    "key": "suit"
+                },
+                {
+                    "png": "/images/other.png",
+                    "title": "其他",
+                    "key": "other"
+                }
+            ]
+        },
+        {
+            "title": "攻略",
+            "column": 2,
+            "permission": 1,
+            "icon": "cuIcon cuIcon-form",
+            "key": "guide",
+            "content": [
+                {
+                    "png": "/images/juqing-ac.png",
+                    "title": "主线剧情",
+                    "key": "juqing",
+                    "css": "width:100%"
+                },
+                {
+                    "png": "/images/qingjie-ac.png",
+                    "title": "情节挑战",
+                    "key": "qingjie"
+                },
+                {
+                    "png": "/images/shenmiao-ac.png",
+                    "title": "神庙挑战",
+                    "key": "shenmiao"
+                },
+                {
+                    "png": "/images/mini-ac.png",
+                    "title": "迷你挑战",
+                    "key": "mini"
+                },
+                {
+                    "png": "/images/others-ac.png",
+                    "title": "其他技巧",
+                    "key": "other"
+                }
+            ]
+        },
+        {
+            "title": "地图",
+            "column": 1,
+            "icon": "cuIcon cuIcon-location",
+            "key": "maps",
+            "content": [
+                {
+                    "png": "/images/weather.png",
+                    "title": "天空",
+                    "key": "weather"
+                },
+                {
+                    "png": "/images/ground.png",
+                    "title": "地面",
+                    "key": "ground"
+                },
+                {
+                    "png": "/images/underground.png",
+                    "title": "洞穴",
+                    "key": "underground"
+                }
+            ]
+        }
+    ],
+    "updated": 1,
+    "bulletin": [],
+    "expires": {
+        "handbook.txt": 1,
+        "guide.txt": 1,
+        "creative.txt": 1
+    }
+}
