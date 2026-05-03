@@ -1,0 +1,95 @@
+{
+    "weather": {
+        "name": "天空",
+        "png": "/images/weather.svg",
+        "extra2": "王国之泪地图分为： 天上、地上、洞穴。\n地图内容繁杂，将根据类别标签持续更新",
+        "content": [
+            {
+                "name": "天空神庙",
+                "count": 31,
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305743140-a3e0fcd3-e22d-430d-a7c8-a87eff7c459c.jpeg"
+            }
+        ]
+    },
+    "ground": {
+        "name": "地面",
+        "png": "/images/ground.svg",
+        "extra2": "王国之泪地图分为： 天上、地上、洞穴。\n地图内容繁杂，将根据类别标签持续更新",
+        "content": [
+            {
+                "name": "鸟瞰台",
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305743419-135402f7-023a-4f13-9ce1-fb9952ec4781.jpeg"
+            },
+            {
+                "name": "大精灵之泉",
+                "count": 4,
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305743182-b778d40c-c932-4f18-9157-ee8cba2a659b.jpeg"
+            },
+            {
+                "name": "白龙路线",
+                "count": 1,
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305740619-6c73e83b-9b93-4ab1-a340-65a5d737d07c.jpeg"
+            },
+            {
+                "name": "元素龙路线",
+                "count": 5,
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305740627-19111436-16a3-466e-b849-ddc7513cac75.jpeg"
+            },
+            {
+                "name": "龙之泪",
+                "count": 12,
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305743154-d53c2209-4865-486b-a68d-75f260b14fac.jpeg"
+            },
+            {
+                "name": "地面神庙",
+                "count": 120,
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305743245-c14135b1-07be-4b79-a7f2-93735c446e99.jpeg"
+            },
+            {
+                "name": "村庄",
+                "count": 10,
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305742097-e2a364ad-3122-41cf-8143-91d66b0ee4fe.jpeg"
+            },
+            {
+                "name": "驿站",
+                "count": 15,
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305742089-0ebc136f-4dfd-4c17-822f-4dd0627df1de.jpeg"
+            },
+            {
+                "name": "地面人马",
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305742293-c22579d8-29d5-4469-a344-a51ec3ba66aa.jpeg"
+            },
+            {
+                "name": "地洞",
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305742297-21132758-b454-4224-b31c-a776e9988867.jpeg"
+            },
+            {
+                "name": "双倍呀哈哈",
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305740528-0e085020-23a3-4aa1-94a7-fc6340970ae4.jpeg"
+            },
+            {
+                "name": "呀哈哈",
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305739015-e370987d-b56f-4967-9baa-55b6a3c43d7e.jpeg"
+            },
+            {
+                "name": "井",
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305742168-bb0804eb-c37f-489c-9b3d-e972ab1d9ad7.jpeg"
+            }
+        ]
+    },
+    "underground": {
+        "name": "洞穴",
+        "png": "/images/underground.svg",
+        "extra2": "王国之泪地图分为： 天上、地上、洞穴。\n地图内容繁杂，将根据类别标签持续更新",
+        "content": [
+            {
+                "name": "地下人马",
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305740830-5f32dac9-13a5-483a-9f80-26302547d154.jpeg"
+            },
+            {
+                "name": "树根",
+                "value": "https://cdn.nlark.com/yuque/0/2025/jpeg/1362796/1736305740620-02f65a11-e535-4153-992a-40c2c0dea5ad.jpeg"
+            }
+        ]
+    }
+}
