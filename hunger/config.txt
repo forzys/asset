@@ -1,0 +1,206 @@
+{
+    "menus": [
+        {
+            "title": "图鉴",
+            "column": 2,
+            "icon": "cuIcon cuIcon-read",
+            "key": "handbook",
+            "content": [
+                {
+                    "title": "角色",
+                    "key": "user",
+                    "png": "/images/wilson.png"
+                },
+                {
+                    "title": "生物",
+                    "key": "animal",
+                    "png": "/images/pig.png"
+                },
+                {
+                    "title": "制作",
+                    "key": "make",
+                    "png": "/images/machine.png",
+                    "badge": 1
+                },
+                {
+                    "title": "食材",
+                    "key": "food",
+                    "png": "/images/meat.png"
+                },
+                {
+                    "title": "料理",
+                    "key": "cookbook",
+                    "png": "/images/stew.png"
+                },
+                {
+                    "title": "航行",
+                    "key": "navigate",
+                    "png": "/images/boat.png"
+                },
+                {
+                    "title": "物品",
+                    "key": "goods",
+                    "png": "/images/backpack.png"
+                },
+                {
+                    "title": "耕种",
+                    "key": "farming",
+                    "png": "/images/survival.png"
+                }
+            ]
+        },
+        {
+            "title": "地形",
+            "column": 1,
+            "icon": "cuIcon cuIcon-location",
+            "key": "maps",
+            "content": [
+                {
+                    "png": "https://img2.baidu.com/it/u=1381091308,1043693732&fm=253&fmt=auto&app=138&f=JPEG?w=307&h=318",
+                    "title": "地形介绍与汇总",
+                    "key": "introduce"
+                },
+                {
+                    "png": "/images/ground.svg",
+                    "title": "地面地形分布",
+                    "key": "ground"
+                },
+                {
+                    "png": "/images/ocean.svg",
+                    "title": "海洋地形分布",
+                    "key": "ocean"
+                },
+                {
+                    "png": "/images/underground.svg",
+                    "title": "地下地形分布",
+                    "key": "underground"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "column": 1,
+            "png": "/images/pot.png",
+            "key": "handbook",
+            "class": "menus-big",
+            "content": [
+                {
+                    "title": "烹饪锅",
+                    "key": "cooking",
+                    "png": "/images/pot.png"
+                }
+            ]
+        },
+        {
+            "title": "指南",
+            "column": 1,
+            "permission": 1,
+            "icon": "cuIcon cuIcon-form",
+            "key": "guide",
+            "content": [
+                {
+                    "png": "https://img.tapimg.com/market/images/71a53cbbe8feb1a9613c78464c907b63.png/appicon_m?t=1",
+                    "title": "饥困荒野/焕新",
+                    "key": "hunger"
+                },
+                {
+                    "png": "/images/survival.png",
+                    "title": "攻略/指南",
+                    "key": "survival"
+                }, 
+                {
+                    "img": "/images/pig.png",
+                    "title": "求助/资源",
+                    "key": "source"
+                },
+                {
+                    "img": "https://img.modwikis.com/60tmIpTjU4.jpeg",
+                    "title": "资源/棱镜模组",
+                    "key": "legion"
+                },
+                {
+                    "img": "https://images.steamusercontent.com/ugc/2027227700906071574/CA09751CEE4B761BAD3F40B50F2A8EFA8322BAD0/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
+                    "title": "资源/海洋传说模组",
+                    "key": "legend"
+                }
+            ]
+        },
+        {
+            "title": "探索",
+            "column": 2,
+            "icon": "cuIcon cuIcon-creative",
+            "key": "creative",
+            "content": [
+                {
+                    "icon": "cuIcon-pic",
+                    "box": "full",
+                    "title": "壁纸周刊",
+                    "key": "wallpaper",
+                    "badge": 1
+                },
+                {
+                    "icon": "cuIcon-explore",
+                    "box": "full",
+                    "title": "网络热图",
+                    "key": "network",
+                    "permission": true,
+                    "badge": 1
+                }, 
+                {
+                    "icon": "cuIcon-video",
+                    "title": "电视直播",
+                    "permission": true,
+                    "key": "anime",
+                    "type": "videos",
+                     "badge": 1
+                },
+                {
+                    "icon": "cuIcon-video", 
+                    "title": "卡通动漫",
+                    "permission": true,
+                    "key": "anime",
+                    "type": "videos",
+                     "badge": 1
+                },
+                {
+                    "pngs": "/images/coupon.svg",
+                    "icon": "cuIcon-ticket",
+                    "box": "full",
+                    "title": "优惠券",
+                    "permission": true,
+                    "key": "coupon"
+                }
+            ]
+        }
+    ],
+    "navs": [ 
+        { "icon": "cuIcon cuIcon-read", "key": "reader", "page": "reader" },
+        { "icon": "cuIcon cuIcon-video", "key": "live", "type": "videos", "page": "content" },
+        { "png": "/images/setting.svg", "key": "apps", "page": "setting"},
+        { "icon": "cuIcon cuIcon-service", "key": "contact", "open": "contact" }
+    ],
+    "navBottom":"18%",
+    "proxy": "https://image.baidu.com/search/down?thumburl=https://baidu.com&url=",
+    "updated": 17,
+    "expires": {
+        "handbook.txt": 8,
+        "guide.txt": 8,
+        "creative.txt": 13,
+        "maps.txt": 1,
+        "reader.txt":1,
+        "videos.txt":1
+    },
+    "bulletin": [],
+    "fetcher": {
+        "creative.txt": "https://raw.gitcode.com/gitcode2eon/zelda/raw/master/kingdom/"
+    },
+    "reader":{
+        "themes":[
+            {"key":"light","label":"亮","background":"#f6f6f6","color":"#1f1f1f"},
+            {"key":"dark","label":"暗","background":"#0e0e0e","color":"#f8f8f8"},
+            {"key":"paper","label":"纸张","background":"#f4ebd0","color":"#3f2f1b"},
+            {"key":"eye","label":"护眼","background":"#e6f1dc","color":"#243418"}
+        ],
+        "fontSteps":[28,32,36,40,46]
+    }
+}
